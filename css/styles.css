@@ -576,7 +576,6 @@ footer{
 
 .modal-form-wrapper{
     position: relative;
-    margin-bottom: 16px;
 }
 
 .modal-btn{
@@ -668,6 +667,10 @@ footer{
 
 .modal-form-field{
     margin-bottom: 8px;
+}
+
+.modal-form-field-container{
+    margin-bottom: 16px;
 }
 
 .modal-form-message{
