@@ -576,7 +576,7 @@ footer{
 
 .modal-form-wrapper{
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-btn{
@@ -693,7 +693,6 @@ footer{
     border-color: #4D5AE5;
 }
 
-/*  */
 .modal-form-agreement{
     margin-bottom: 24px;
 }
