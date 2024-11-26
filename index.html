@@ -43,7 +43,7 @@
         <section class="first-content">
         <div class="container">
             <h1 class="first-subject">Effective Solutions for Your Business</h1>
-            <button class="button" type="button">Order Service</button>
+            <button class="button" type="button" data-modal-open>Order Service</button>
         </div>
         </section>
 
@@ -374,7 +374,7 @@
         </div>
     </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop is-open"data-modal>
         <div class="modal">
             <button class="modal-btn" type="button">
                 <svg class="modal-btn-icon" width="8" height="8">
@@ -418,7 +418,7 @@
         <textarea class="modal-form-message" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
     </div>
     <div class="modal-form-agreement">
-        <input class="visually-hidden" type="checkbox" value="true" name="user-privacy" id="user-privacy">
+        <input class="visually-hidden" type="checkbox" value="true" name="user-privacy" id="user-privacy" data-modal-close>
         <label class="modal-form-agreement-text" for="user-privacy">
             <span class="modal-form-checkbox">
                 <svg class="modal-form-checkbox-icon" width="10" height="8">
@@ -432,5 +432,6 @@
     </form>
   </div>
  </div>
+ <script src="./js/modal.js"></script>
 </body>
 </html>
